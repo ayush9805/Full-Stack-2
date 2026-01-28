@@ -1,0 +1,94 @@
+/* App.css */
+
+/* 1. Custom Navbar Background (Gradient) */
+.custom-navbar {
+  /* A modern deep blue-purple gradient */
+  background: linear-gradient(90deg, #1cb5e0 0%, #000851 100%);
+  /* Optional: Glassmorphism effect (blur) */
+  backdrop-filter: blur(10px); 
+  padding: 15px 0; /* More breathing room top/bottom */
+  transition: all 0.3s ease-in-out;
+}
+
+/* 2. Brand Styling */
+.navbar-brand {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* 3. Navigation Links Hover Effect */
+.nav-link {
+  font-weight: 500;
+  margin: 0 10px;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+/* Create a sliding underline effect on hover */
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 50%;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+  transform: translateX(-50%);
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* 4. Dropdown Styling */
+.custom-dropdown {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  animation: fadeIn 0.3s;
+  overflow: hidden;
+  margin-top: 15px; /* Spacing from the nav link */
+}
+
+.dropdown-item {
+  padding: 10px 20px;
+  transition: background 0.2s;
+}
+
+.dropdown-item:hover {
+  background-color: #f0f2f5;
+  color: #000851; /* Match gradient color */
+  padding-left: 25px; /* Slight movement effect */
+}
+
+/* 5. Search Input Styling */
+.bg-light-opacity {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  color: white !important;
+  transition: background-color 0.3s;
+}
+
+.bg-light-opacity::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.bg-light-opacity:focus {
+  background-color: #fff !important;
+  color: #333 !important;
+  box-shadow: 0 0 10px rgba(255,255,255,0.5);
+}
+
+/* 6. Hero Section (Just for presentation) */
+.hero-section {
+  background: url('https://source.unsplash.com/1600x900/?nature,mountain') no-repeat center center/cover;
+  height: 80vh; /* Takes up 80% of viewport height */
+  margin-top: -80px; /* Pull it up behind the navbar */
+  padding-top: 80px;
+}
+
+/* Simple Animation Keyframe */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

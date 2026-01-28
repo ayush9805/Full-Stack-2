@@ -1,0 +1,42 @@
+/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
+
+:root {
+  --bg-color: #050505;
+  --card-bg: #0a0a0a;
+  --border-color: #262626;
+  --text-primary: #ffffff;
+  --text-secondary: #a3a3a3;
+}
+
+/* 1. FORCE DARK MODE */
+body {
+  margin: 0;
+  padding: 0;
+  /* Use !important to override Bootstrap's default white background */
+  background-color: var(--bg-color) !important;
+  color: var(--text-primary) !important;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+
+/* 2. Ensure React root takes full height */
+#root {
+  min-height: 100vh;
+  background-color: var(--bg-color) !important;
+}
+
+/* 3. Override Bootstrap's Text Colors */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-primary) !important;
+}
+
+/* Custom Utilities */
+.text-secondary {
+  color: var(--text-secondary) !important;
+}
+
+.border-secondary {
+  border-color: var(--border-color) !important;
+}
