@@ -1,16 +1,18 @@
 ## Experiment-2
 # Exp2.1 - Designing UI using Bootstrap Components
+In this experiment, a responsive contact form UI is created using Bootstrap. The layout focuses on simplicity, alignment, and accessibility while maintaining a modern design aesthetic. Bootstrap components eliminate the need for custom CSS, allowing rapid UI development.
 
 
 <img width="1886" height="879" alt="Screenshot 2026-01-28 200954" src="https://github.com/user-attachments/assets/f1dda80d-a1f9-4cd2-b13e-973724020238" />
 
 # Exp 2.2 - Card-Based layout Using Bootstrap
-
+This experiment demonstrates the use of Bootstrap’s card component to create visually appealing and reusable content blocks. Each card represents a travel destination with an image, title, description, and action button.
 
 <img width="1917" height="871" alt="Screenshot 2026-01-28 201024" src="https://github.com/user-attachments/assets/5bbdd8b4-3267-4617-ae33-5c90ae354ae6" />
 
 
 # Exp2.3-Responsive Navigation Bar Using Component Library
+This experiment focuses on designing a responsive navigation bar that adapts to different screen sizes. The navbar includes branding, navigation links, and collapses into a hamburger menu on smaller devices.
 
 <img width="1919" height="864" alt="Screenshot 2026-01-28 201056" src="https://github.com/user-attachments/assets/008fec2a-e637-4944-8361-cac0229b66ec" />
 
