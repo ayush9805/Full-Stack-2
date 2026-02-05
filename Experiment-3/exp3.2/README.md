@@ -1,12 +1,19 @@
-# React + Vite
+# Experiment 2: Navigation Using Link Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Aim
+To implement navigation links in a Single Page Application (SPA) using the React Router `Link` component.
 
-Currently, two official plugins are available:
+## ⚙️ Software Requirements
+* **Node.js**
+* **React**
+* **React Router DOM**
+* **Web Browser**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📖 Theory
+In standard HTML, navigation is performed using the anchor `<a>` tag, which causes the browser to refresh the page and reload all resources.
 
-## Expanding the ESLint configuration
+In a React Single Page Application (SPA), we want to change the view **without** reloading the page. The **`Link`** component from `react-router-dom` is used to create links that update the URL and render the new component instantly.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<img width="1918" height="867" alt="image" src="https://github.com/user-attachments/assets/c716e68b-04df-49a9-a463-67e11611c60b" />
+<img width="1919" height="926" alt="image" src="https://github.com/user-attachments/assets/67e5a6a9-17cf-47fc-9ed8-b87f996c05ee" />
+<img width="1912" height="857" alt="image" src="https://github.com/user-attachments/assets/b2a87451-99e4-4f6c-8bf5-518e556e2717" />
