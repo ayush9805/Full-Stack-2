@@ -1,0 +1,79 @@
+/* 1. Main Layout Container */
+.App {
+  display: flex;
+  flex-direction: column; /* Stack Navbar on top, Content below */
+  min-height: 100vh;      /* Full screen height */
+  width: 100%;            /* Full screen width */
+}
+
+/* 2. Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Logo left, Links right */
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color:black;      /* Dark grey */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  width: 100%;
+  box-sizing: border-box;         /* Prevents padding from breaking width */
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #61dafb; /* React Blue */
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  transition: color 0.3s ease;
+
+}
+
+
+/* 3. Content Area Styles */
+.content-wrapper {
+  flex: 1;                 /* Grow to fill empty space */
+  display: flex;           /* Flexbox to center content */
+  justify-content: center; /* Horizontal Center */
+  align-items: center;     /* Vertical Center */
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.page-content {
+  text-align: center;
+  max-width: 800px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Button Style */
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  background-color: #61dafb;
+  color: #121212;
+  cursor: pointer;
+  transition: transform 0.2s;
+  margin-top: 20px;
+}
+button:hover {
+  transform: scale(1.05);
+  background-color: #4fa8c7;
+}

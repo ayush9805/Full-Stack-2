@@ -1,0 +1,122 @@
+/* --- GLOBAL LAYOUT --- */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.content-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align to top for dashboard look */
+  padding-top: 40px;
+  width: 100%;
+}
+
+/* --- NAVBAR (Code 1 Style) --- */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #1e1e1e;
+  border-bottom: 1px solid #333;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #61dafb;
+  text-decoration: none;
+}
+
+.nav-links { display: flex; gap: 20px; }
+.nav-item { text-decoration: none; color: #a0a0a0; font-weight: 500; transition: 0.3s; }
+.nav-item:hover { color: #fff; }
+
+/* --- BUTTON NAVIGATION (Code 2 Style) --- */
+.nav-button-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.nav-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2a2a2a;
+  border: 1px solid #444;
+  padding: 20px;
+  width: 140px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.nav-btn:hover {
+  transform: translateY(-5px);
+  background-color: #333;
+  border-color: #61dafb;
+}
+
+.nav-btn img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+  filter: invert(1); /* Makes black icons white */
+}
+
+/* --- DASHBOARD (Code 3 Style) --- */
+.dashboard-layout {
+  background-color: #1e1e1e;
+  padding: 30px;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #61dafb;
+  margin-bottom: 10px;
+}
+
+.dash-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+  border-bottom: 1px solid #444;
+  padding-bottom: 10px;
+}
+
+.dash-tab {
+  text-decoration: none;
+  color: #888;
+  padding: 8px 16px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.dash-tab.active {
+  background-color: #61dafb;
+  color: #121212;
+  font-weight: bold;
+}
+
+.card {
+  background-color: #252525;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 10px;
+  text-align: left;
+}
