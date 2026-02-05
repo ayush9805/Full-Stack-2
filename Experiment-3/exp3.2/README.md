@@ -17,3 +17,4 @@ In a React Single Page Application (SPA), we want to change the view **without**
 <img width="1918" height="867" alt="image" src="https://github.com/user-attachments/assets/c716e68b-04df-49a9-a463-67e11611c60b" />
 <img width="1919" height="926" alt="image" src="https://github.com/user-attachments/assets/67e5a6a9-17cf-47fc-9ed8-b87f996c05ee" />
 <img width="1912" height="857" alt="image" src="https://github.com/user-attachments/assets/b2a87451-99e4-4f6c-8bf5-518e556e2717" />
+<img width="1918" height="876" alt="image" src="https://github.com/user-attachments/assets/b9f41e8a-5713-4072-bf47-19901f1e508d" />
