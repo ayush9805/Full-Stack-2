@@ -1,12 +1,18 @@
-# React + Vite
+# Experiment 3: Multi-Page SPA Using Routing
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Aim
+To create a multi-page Single Page Application (SPA) using client-side routing.
 
-Currently, two official plugins are available:
+## ⚙️ Software Requirements
+* **Node.js**
+* **React**
+* **React Router DOM**
+* **Web Browser**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📖 Theory
+A **Multi-Page SPA** behaves like a traditional multi-page website to the user (with distinct URLs and views), but it is technically a single HTML page that dynamically updates its content. 
 
-## Expanding the ESLint configuration
+By mapping specific components to distinct URL paths (routes), we can create the illusion of navigating between different pages (like Home, About, Contact, Services) without the performance cost of refreshing the page for every click. This results in a faster, more fluid user experience.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<img width="1896" height="850" alt="image" src="https://github.com/user-attachments/assets/448d33ed-4094-4957-8db8-a6aa5f35edce" />
+<img width="1917" height="863" alt="image" src="https://github.com/user-attachments/assets/1aa92fd7-eda4-46a3-a70a-46fadafe53a5" />
