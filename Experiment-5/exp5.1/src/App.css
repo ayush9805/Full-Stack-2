@@ -1,0 +1,88 @@
+/* ===== DASHBOARD WRAPPER ===== */
+
+.dashboard-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+/* ===== SMALL CARD ===== */
+
+.dashboard-card {
+  width: 380px; /* smaller */
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.06);
+  text-align: left; /* align content to start */
+}
+
+/* ===== PROFILE IMAGE ===== */
+
+.profile-pic {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 3px solid #e5e7eb;
+}
+
+/* ===== TITLE ===== */
+
+.dashboard-card h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* ===== TABS ===== */
+
+.dash-tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.dash-tab {
+  padding: 6px 14px;
+  border-radius: 20px;
+  border: none;
+  background: #f1f5f9;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+.dash-tab.active {
+  background: #2563eb;
+  color: white;
+}
+
+/* ===== CONTENT ===== */
+
+.section-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #111827;
+}
+
+.info-line {
+  margin-bottom: 14px;
+}
+
+.info-line span {
+  display: block;
+  font-size: 11px;
+  font-weight: 600;
+  color: #6b7280;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+}
+
+.info-line p {
+  font-size: 14px;
+  color: #374151;
+}
