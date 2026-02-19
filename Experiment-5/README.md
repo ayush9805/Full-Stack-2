@@ -84,15 +84,11 @@ Difference between component-level and route-level lazy loading.
 
 Importance of reducing initial bundle size in SPAs.
 
-
-<img width="1899" height="853" alt="Screenshot 2026-02-13 161238" src="https://github.com/user-attachments/assets/195da406-4ef1-4212-ac1a-8394b67ab9ae" />
-<img width="1919" height="870" alt="Screenshot 2026-02-13 161155" src="https://github.com/user-attachments/assets/a022b423-a365-4ddf-8c77-8bdeaf66757d" />
-<img width="1915" height="871" alt="Screenshot 2026-02-13 161258" src="https://github.com/user-attachments/assets/6386010a-59ff-4130-8b35-0b396840a074" />
-<img width="1899" height="853" alt="Screenshot 2026-02-13 161238" src="https://github.com/user-attachments/assets/b59bdeb9-3f65-4d5b-a7dc-4777a65a521d" />
-
-<img width="1919" height="859" alt="Screenshot 2026-02-13 161340" src="https://github.com/user-attachments/assets/52c85a6b-aadc-4b8d-80d3-579fd6265455" />
-<img width="1918" height="856" alt="Screenshot 2026-02-13 161311" src="https://github.com/user-attachments/assets/c516cc97-bf62-4274-80c5-b1612956dbfd" />
-
+<img width="1890" height="859" alt="Screenshot 2026-02-19 105153" src="https://github.com/user-attachments/assets/b0f56aa6-5d18-4c46-9c9b-1c66ea67ea1f" />
+<img width="1903" height="866" alt="Screenshot 2026-02-19 105239" src="https://github.com/user-attachments/assets/94fe345e-2356-4ebe-8575-d36d9e56e0c4" />
+<img width="1891" height="874" alt="Screenshot 2026-02-19 105220" src="https://github.com/user-attachments/assets/7779efcb-a0df-4905-a276-a27000ea9f00" />
+<img width="1903" height="866" alt="Screenshot 2026-02-19 105239" src="https://github.com/user-attachments/assets/8d2a27e8-0e0a-477d-a223-e9ad3b58139b" />
+<img width="1897" height="865" alt="Screenshot 2026-02-19 105206" src="https://github.com/user-attachments/assets/749addc1-9677-43f8-a71a-53284ac438f5" />
 
 
 
