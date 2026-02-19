@@ -1,4 +1,4 @@
-🧪 Experiment 1 – Component Lazy Loading
+## 🧪 Experiment 1 – Component Lazy Loading
 
 ## 🎯 Aim
 
@@ -32,8 +32,8 @@ Improved user experience with loading indicators.
 
 <img width="1919" height="870" alt="Screenshot 2026-02-13 161155" src="https://github.com/user-attachments/assets/ec5f559e-67c9-43fe-b435-0ea18691402e" />
 
-🧪 Experiment 2 – Route-Based Lazy Loading in SPA
-🎯 Aim
+## 🧪 Experiment 2 – Route-Based Lazy Loading in SPA
+## 🎯 Aim
 
 To implement route-based lazy loading to improve performance in a React Single Page Application.
 
