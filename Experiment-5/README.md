@@ -1,5 +1,6 @@
 🧪 Experiment 1 – Component Lazy Loading
-🎯 Aim
+
+## 🎯 Aim
 
 To optimize frontend performance by implementing lazy loading of components in a React Single Page Application using React.lazy() and Suspense.
 
