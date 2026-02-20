@@ -1,9 +1,9 @@
 .form-container {
   width: 400px;
-  
+
   margin: 3rem auto;
   padding: 2.5rem;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   border-radius: 8px;
   font-family: sans-serif;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
