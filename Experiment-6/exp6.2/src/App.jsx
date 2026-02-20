@@ -34,7 +34,7 @@ function App() {
     let isValid = true;
     let newErrors = { email: '', password: '' };
 
-    const emailRegex = /^[^\s@]+@[^\s@]+\.(com|in|[a-zA-Z]{2,3})$/i;
+    const emailRegex = /^[a-zA-Z0-9_]+@[a-zA-Z0-9-]+\.(com|in|[a-zA-Z]{2,3})$/i;
     if (!formData.email) {
       newErrors.email = "Email is required.";
       isValid = false;
