@@ -1,0 +1,183 @@
+.form-container {
+  width: 400px;
+  
+  margin: 3rem auto;
+  padding: 2.5rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: sans-serif;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #444;
+}
+
+input[type="email"], 
+input[type="password"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* Error styling */
+.input-error {
+  border-color: #dc3545 !important;
+  background-color: #fff8f8;
+}
+
+.error-text {
+  color: #dc3545;
+  font-size: 0.85rem;
+  margin-top: 5px;
+}
+
+/* Button styling */
+.button-group {
+  margin-top: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+/* Styling for the password visibility toggle */
+.password-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.password-wrapper input {
+  width: 100%;
+  /* Add padding to the right so text doesn't hide behind the button */
+  padding-right: 40px; 
+  /* Ensure the box sizing handles the padding correctly */
+  box-sizing: border-box; 
+}
+
+.toggle-password-btn {
+  position: absolute;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 0;
+  width: auto;
+  color: #666;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toggle-password-btn:hover {
+  background: none;
+  opacity: 0.7;
+}
+
+/* Ensure the main submit button keeps its styles */
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+/* Ensure both Email and Password inputs have the exact same height */
+input[type="email"], 
+.password-wrapper input {
+  width: 100%;
+  height: 42px; /* Locks the height */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  box-sizing: border-box; /* Prevents padding from increasing total size */
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* Password wrapper setup */
+.password-wrapper {
+  position: relative;
+  display: block; /* Changed from flex to block to prevent inner height collapsing */
+  width: 100%;
+}
+
+.password-wrapper input {
+  padding-right: 40px; /* Leaves space so text doesn't type under the icon */
+}
+/* Perfectly center the icon inside the box and strip ALL default button styles */
+.toggle-password-btn {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%); 
+  background: transparent !important; /* Forces the background to be invisible */
+  border: none !important;            /* Removes the stubborn box border */
+  outline: none !important;           /* Removes the blue outline when clicked */
+  box-shadow: none !important;        /* Removes any default button shadows */
+  cursor: pointer;
+  padding: 0;
+  color: #666; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toggle-password-btn:hover {
+  color: #333; /* Darkens slightly on hover for a nice interactive feel */
+}
