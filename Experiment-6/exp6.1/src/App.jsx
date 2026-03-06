@@ -120,15 +120,15 @@ function App() {
             <option value="Delhi">Delhi</option>
             <option value="Maharashtra">Haryana</option>
             <option value="Karnataka">Punjab</option>
-            <option value="Tamil Nadu">Himachal Pradesh</option>
+            <option value="Himachal Pradesh">Himachal Pradesh</option>
             <option value="Uttar Pradesh">Uttar Pradesh</option>
-            <option value="Uttar Pradesh">Bihar</option>
-            <option value="Uttar Pradesh">Jharkhand</option>
-            <option value="Uttar Pradesh">Rajasthan</option>
-            <option value="Uttar Pradesh">Uttrakhand</option>
-            <option value="Uttar Pradesh">Kerala</option>
-            <option value="Uttar Pradesh">Tamol Nadu</option>
-            <option value="Uttar Pradesh">Gujarat</option>
+            <option value="Bihar">Bihar</option>
+            <option value="Jharkhand">Jharkhand</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="Uttrakhand">Uttrakhand</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Tamil Nadu">Tamil Nadu</option>
+            <option value="Gujarat">Gujarat</option>
           </select>
         </div>
 
